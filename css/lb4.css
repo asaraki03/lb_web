@@ -1,0 +1,39 @@
+
+body{
+    background: url("../src/images/lb4/bg_page.png") center repeat-y;
+    background-color: #fef8ac;
+}
+#content{
+    width: 750px;
+    margin: 0 auto;
+}
+#banner img{
+    max-width: 100%;
+}
+h1, h2, h3{
+    border-top: 2px solid #888e50;
+    display: flex;
+    justify-content: left;
+    color: #ad7d31;
+    padding-left: 100px;
+}
+p:nth-child(3){
+    color: #E16417;
+    font-size: 18px;
+}
+p{
+    margin-left: 100px;
+}
+.advice{
+    padding: 10px;
+    margin: 20px auto;
+    text-align: left;
+    border: 2px dashed #948b50;
+    background-color: #fbf8a9;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.advice strong{
+    color: red;
+}
